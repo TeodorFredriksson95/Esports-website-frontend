@@ -1,0 +1,30 @@
+.home-body {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.home-intro-section {
+  height: 200px;
+  width: 50%;
+  background-image: url("../../../public/heroesimage.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.139);
+}
+.home-intro-title {
+  font-size: 70px;
+  font-weight: bolder;
+  font-style: italic;
+  color: #723f3f;
+  text-shadow: 2px 2px #000000;
+  margin-bottom: 10%;
+}
+
+.most-viewed-container h1 {
+  color: #723f3f;
+  text-align: left;
+}

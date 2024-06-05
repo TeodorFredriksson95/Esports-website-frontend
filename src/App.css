@@ -1,5 +1,13 @@
+:root {
+  --base-radius: 0.25rem;
+}
+
 .App {
   text-align: center;
+}
+
+body {
+  background-color: #f4e3cd;
 }
 
 .App-logo {
