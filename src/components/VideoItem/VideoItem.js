@@ -1,6 +1,4 @@
 import "./VideoItem.css";
-import { Icon } from "@iconify/react";
-import Image from "react";
 
 export const VideoItem = ({ esportsLogo, viewers, gameTitle, matchTitle }) => {
   const backgroundImageStyle = {
@@ -12,7 +10,6 @@ export const VideoItem = ({ esportsLogo, viewers, gameTitle, matchTitle }) => {
   return (
     <div className="video-container">
       <div className="game-image-container">
-        {/* <div className="game-image" style={backgroundImageStyle}></div> */}
         <div className="game-image">
           <img src={esportsLogo} />
         </div>

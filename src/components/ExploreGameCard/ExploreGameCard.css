@@ -1,0 +1,48 @@
+.explore-game-card-container {
+  position: relative;
+  background-color: transparent;
+  height: 450px;
+}
+
+.game-card-cover-image-container {
+  background-color: blue;
+  height: 85%;
+  width: 100%;
+  border-radius: var(--base-radius);
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.game-card-cover-image {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--base-radius);
+}
+
+.game-card-explore-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffdaa9;
+  width: 30%;
+  height: 30px;
+  border-radius: 1rem;
+  position: absolute;
+  bottom: -4%;
+  left: 35%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #422020;
+  font-weight: 500;
+}
+
+.game-card-game-name-container {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+.game-card-game-name {
+  position: absolute;
+  bottom: 0;
+  font-size: 20px;
+  font-weight: 500;
+}

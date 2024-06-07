@@ -1,4 +1,9 @@
-.home-body {
+/* .home-body {
+  padding-left: 10%;
+  padding-right: 10%;
+} */
+
+.most-viewed-container {
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -24,7 +29,31 @@
   margin-bottom: 10%;
 }
 
-.most-viewed-container h1 {
+.most-viewed-container h1,
+.explore-games-container h1 {
   color: #723f3f;
   text-align: left;
+}
+.explore-games-container h1 {
+  padding-left: var(--base-padding);
+  padding-right: var(--base-padding);
+}
+.explore-games-container {
+  height: 100%;
+  margin-top: 10%;
+}
+
+.explore-games-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 7%;
+  padding-left: var(--base-padding);
+  padding-right: var(--base-padding);
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 10%;
+}
+
+.explore-games-background-overlay {
+  background-color: rgba(47, 44, 44, 0.119);
 }

@@ -1,5 +1,6 @@
 :root {
   --base-radius: 0.25rem;
+  --base-padding: 10%;
 }
 
 .App {
